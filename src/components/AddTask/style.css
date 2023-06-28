@@ -1,0 +1,23 @@
+.addTask{
+    margin-top: 5%;
+    align-items: center;
+}
+
+.addTask form input{
+    width: 30%;
+    padding: 1%;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.addTask form button{
+    padding: 1%;
+    width: 6%;
+    margin-left: 2%;
+    border-radius: 10px;
+    background-color: #8739F9;
+    border: none;
+    color: #FFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7rem;
+}

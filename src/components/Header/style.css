@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #100F10;
+    border-radius: 15px;
+    color: #FFFF;
+    align-items: center;
+    width: 70%;
+}
+
+.logo span{
+    font-size: 2rem;
+}
+
+header .themeSelector span {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    cursor: pointer;
+    border: 1px solid #dfdfdf;
+}
+
+header .themeSelector .activeTheme{
+    height: 40px;
+    width: 40px;
+}
